@@ -21,7 +21,7 @@ class Myelement extends LitElement{
     
     width: 300px;
     height: 700px;
-    background-color: red;
+   // background-color: red;
     padding: 20px;
     color: black; 
 }
@@ -37,7 +37,7 @@ class Myelement extends LitElement{
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
-  row-gap: 20px;
+  row-gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -54,7 +54,7 @@ class Myelement extends LitElement{
   height: 170px;
   display: flex;
   flex-direction: column;
-  background: blue;
+  //background: blue;
   justify-content: end;
   align-items:center;
   border-radius: 10px; 
@@ -68,13 +68,22 @@ class Myelement extends LitElement{
   width: 150px;
 }
 
+.album__1 img{
+  width: 115px;
+  height:115px;
+  border-radius: 10px; 
+
+  }
+
+
 
 .album__2{
+  
   width: 130px;
   height: 170px;
   display: flex;
   flex-direction: column;
-  background: blue;
+ //background: blue;
   justify-content: end;
   align-items:center;
   border-radius: 10px; 
@@ -89,24 +98,36 @@ class Myelement extends LitElement{
   width: 150px;
 }
 
+.album__2 img{
+  width: 115px;
+  height:115px;
+  border-radius: 10px; 
+  
+  }
+
 .album__3{
   width: 130px;
   height: 170px;
   display: flex;
   flex-direction: column;
-  background: blue;
+  //background: blue;
   justify-content: end;
   align-items:center;
   border-radius: 10px; 
   
-
 }
 
 .album__3__list{
-  
   list-style: none;
   line-height: 15px;
   width: 150px;
+}
+
+.album__3 img{
+width: 115px;
+height:115px;
+border-radius: 10px; 
+
 }
 
 .album__4{
@@ -114,20 +135,24 @@ class Myelement extends LitElement{
   height: 170px;
   display: flex;
   flex-direction: column;
-  background: blue;
+  //background: blue;
   justify-content: end;
   align-items:center;
   border-radius: 10px; 
-  
 }
 
 .album__4__list{
-  
   list-style: none;
   line-height: 15px;
   width: 150px;
 }
 
+.album__4 img{
+  width: 115px;
+  height:115px;
+  border-radius: 10px; 
+
+  }
 
 
 
@@ -138,8 +163,7 @@ class Myelement extends LitElement{
 
 
   
-  
-  
+   
   
   `
  
@@ -151,7 +175,7 @@ class Myelement extends LitElement{
     <header>
         <h1>Discover New music</h1>
         <div class="top-chart">
-            <span>Top-chart</span>
+            <h4>Top-chart</h4>
             <select>
                 <option>Week</option>
             </select>
@@ -166,6 +190,7 @@ class Myelement extends LitElement{
 
     <div class="album__1">
     <ul class="album__1__list">
+    <img src="/img/com.png">
         <li>OK Computer</li>
         <li><small>Radiohead, 1997</small></li>
     </ul>
@@ -174,8 +199,8 @@ class Myelement extends LitElement{
 
 
   <div class="album__2">
-  <img src="path/to/in-rainbows.jpg" alt="In Rainbows">
   <ul class="album__2__list">
+  <img src="/img/rain.png">
       <li>In Rainbows</li>
       <li><small>Radiohead, 2004</small></li>
   </ul>
@@ -183,8 +208,8 @@ class Myelement extends LitElement{
 
 
   <div class="album__3">
-  <img src="path/to/in-rainbows.jpg" alt="In Rainbows">
-  <ul class="album__3__list">
+<ul class="album__3__list">
+  <img src="/img/bell.png">
       <li>The Division Bell</li>
       <li><small>Pink Floyd, 1994</small></li>
   </ul>
@@ -192,8 +217,9 @@ class Myelement extends LitElement{
 
 
   <div class="album__4">
-  <img src="path/to/in-rainbows.jpg" alt="In Rainbows">
+  
   <ul class="album__4__list">
+  <img src="/img/cc.png" ">
       <li>Crystal Castles I</li>
       <li><small>Crystal Castles, 2008</small></li>
   </ul>
