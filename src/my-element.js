@@ -21,12 +21,16 @@ class Myelement extends LitElement{
     
     width: 300px;
     height: 800px;
-    background-color: lightgray;
+    //background-color: lightgray;
     padding: 20px;
     color: black; 
     
 }
 
+h1{
+ //background-color: red;
+ width:180px;
+}
 .top-chart {
   display: flex;
   justify-content: space-between;
@@ -35,6 +39,8 @@ class Myelement extends LitElement{
   //background: yellow;
  
 }
+
+
 
 .album {
   display:flex;
@@ -170,6 +176,7 @@ border-radius: 10px;
 }
 
 .lista__canciones__li{
+  font-size:16px;
   list-style: none;
   line-height: 2px;
   width: 190px;
@@ -190,6 +197,7 @@ border-radius: 10px;
     list-style:none;
     padding-top:8px;
     padding-left:3px;
+    font-size:16px;
   }
 
 
@@ -203,16 +211,12 @@ border-radius: 10px;
   width: 300px;
 }
 
-.lista_canciones__a img{
-  width: 50px;
-  height:50px;
-  border-radius: 5px;
-}
+
 
 .carrusell{
   //background: orange;
   width:400px;
-  height:82px;
+  height:97px;
   overflow-y: auto;
   
 }
@@ -306,12 +310,12 @@ border-radius: 10px;
   <div class="lista__canciones"> 
   <img src="/img/hem.png">
   <div class= "lista__canciones__li">  
-  <li><p>Static</p></li>
-  <li><p><small>Godspeed You, Black Emperor</small></p></li>
+  <li><p>Empathy</p></li>
+  <li><p><small>Cristal Castles</small></p></li>
     </div>
     <div class=lista__canciones__li1>
-  <li>22:36</li>
-  <li><small>2001<small></li>
+  <li>4:16</li>
+  <li><small>2014<small></li>
     </div>
   </div>
 
@@ -328,10 +332,7 @@ border-radius: 10px;
  
   
   
-  <div class="lista_canciones__a">
-  <img src="/img/hem.png">
-  </div>
-  </div>
+
      
 
      
