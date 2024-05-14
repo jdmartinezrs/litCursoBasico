@@ -17,7 +17,7 @@ class Myelement extends LitElement{
     font-family: Arial;
   }
 
-  .music-container {
+  .music__container {
     
     width: 300px;
     height: 800px;
@@ -31,7 +31,9 @@ h1{
  //background-color: red;
  width:180px;
 }
-.top-chart {
+
+
+.top__chart {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,11 +53,7 @@ h1{
 }
 
 
-.albums{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+
 
 .album__1{
 
@@ -160,6 +158,27 @@ border-radius: 10px;
 
   }
 
+  .titleyml{
+    width:
+    display:flex;
+    //background: green;
+    width: 300px;
+  }
+  
+  
+  
+  .carrusell{
+    //background: orange;
+    width:400px;
+    height:97px;
+    overflow-y: auto;
+    
+  }
+
+
+
+
+
 .lista__canciones{
   width: 300px;
     display:flex;
@@ -201,42 +220,17 @@ border-radius: 10px;
   }
 
 
-
-
-
-.titleyml{
-  width:
-  display:flex;
-  //background: green;
-  width: 300px;
-}
-
-
-
-.carrusell{
-  //background: orange;
-  width:400px;
-  height:97px;
-  overflow-y: auto;
-  
-}
-
-
-
-
-  
-   
   
   `
  
   render(){
     return html`
 <body>
-<div class="music-container"> 
+<div class="music__container"> 
 
     <header>
         <h1>Discover New music</h1>
-        <div class="top-chart">
+        <div class="top__chart">
             <h4>Top-chart</h4>
             <select>
                 <option>Week</option>
