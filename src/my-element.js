@@ -21,7 +21,7 @@ class Myelement extends LitElement{
     
     width: 300px;
     height: 800px;
-    //background-color: lightgray;
+   //background-color: lightgray;
     padding: 20px;
     color: black; 
     
@@ -170,7 +170,7 @@ border-radius: 10px;
   .carrusell{
     //background: orange;
     width:400px;
-    height:97px;
+    height:145px;
     overflow-y: auto;
     
   }
@@ -310,6 +310,18 @@ border-radius: 10px;
     <div class=lista__canciones__li1>
   <li>4:16</li>
   <li><small>2014<small></li>
+    </div>
+  </div>
+
+  <div class="lista__canciones"> 
+  <img src="/img/mag.jpg">
+  <div class= "lista__canciones__li">  
+  <li><p>Magazine</p></li>
+  <li><p><small>$uicideBoys</small></p></li>
+    </div>
+    <div class=lista__canciones__li1>
+  <li>3:14</li>
+  <li><small>2016<small></li>
     </div>
   </div>
 
