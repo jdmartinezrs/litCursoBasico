@@ -158,27 +158,6 @@ border-radius: 10px;
 
   }
 
-  .titleyml{
-    width:
-    display:flex;
-    //background: green;
-    width: 300px;
-  }
-  
-  
-  
-  .carrusell{
-    //background: orange;
-    width:400px;
-    height:145px;
-    overflow-y: auto;
-    
-  }
-
-
-
-
-
 .lista__canciones{
   width: 300px;
     display:flex;
