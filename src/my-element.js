@@ -158,6 +158,14 @@ border-radius: 10px;
 
   }
 
+  .carrusell{
+    //background: orange;
+    width:400px;
+    height:150px;
+    overflow-y: auto;
+    
+  }
+
 .lista__canciones{
   width: 300px;
     display:flex;
