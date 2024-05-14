@@ -158,9 +158,16 @@ border-radius: 10px;
 
   }
 
+  .titleyml{
+    width:
+    display:flex;
+    //background: green;
+    width: 300px;
+  }
+
   .carrusell{
     //background: orange;
-    width:400px;
+    width:300px;
     height:150px;
     overflow-y: auto;
     
